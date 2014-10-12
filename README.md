@@ -25,4 +25,4 @@ Compiling from source
 * Done.
 
 #BeOS R5/Zeta Compatibility Note
-This demo has not yet been tested to compile on BeOS R5 or Zeta. Since the recent API changes in Haiku, API compatibility for BeOS or Zeta is not yet guaranteed or fully supported. This demo so far works on Haiku R1-alpha4 gcc2/gcc4 and newer.
+Although the Haiku API is slightly similar to the original BeAPI, this demo has not yet been tested to compile on BeOS R5 or Zeta. Since the recent API changes in Haiku, API compatibility for BeOS or Zeta is not yet guaranteed or fully supported. This demo so far works on Haiku R1-alpha4 gcc2/gcc4 and newer.
