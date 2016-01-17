@@ -13,14 +13,11 @@
 class DemoWindow : public BWindow
 {
 	public:
-								DemoWindow();
-		virtual bool			QuitRequested();
-		virtual void			MessageReceived(BMessage* message);
-	
+		virtual bool	QuitRequested();
+		virtual void	MessageReceived(BMessage* message);
+						DemoWindow();	
 	private:
-	
 		DemoView*		vwMain;
-
 };
 
 #endif

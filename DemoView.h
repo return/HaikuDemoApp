@@ -12,15 +12,11 @@
 
 class DemoView : public BView 
 {
-
 	public:
-							DemoView(BRect frame, char *name); 
-
+		DemoView(BRect frame, char *name); 
 	private:
-
-			BStringView*  txtInfo;
-			BButton*		btnOne;
-
+		BStringView*	txtInfo;
+		BButton*		btnOne;
 };
 
 #endif

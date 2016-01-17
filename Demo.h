@@ -13,10 +13,10 @@
 class Demo: public BApplication
 {
 	public:
-						Demo();
-		virtual void	ReadyToRun();
+	virtual void	ReadyToRun();
+					Demo();
 	private:
-		DemoWindow*		demoWindow;
+		DemoWindow*	demoWindow;
 };
 
 #endif

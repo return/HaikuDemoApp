@@ -1,6 +1,6 @@
 ##Haiku Demo Application
 
-NAME := DemoApp
+NAME := HaikuDemoApp
 TYPE := APP
 SRCS := 	Demo.cpp DemoView.cpp DemoWindow.cpp
 LIBS := 	be

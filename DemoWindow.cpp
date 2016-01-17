@@ -9,7 +9,6 @@ BRect rect(100,100,300,200);
 DemoWindow::DemoWindow() :
 	BWindow(rect, "Demo Application", B_TITLED_WINDOW,B_WILL_DRAW)
 {
-
 	SetSizeLimits(50,30000,50,30000);
 	
 	// define objects
@@ -20,9 +19,7 @@ DemoWindow::DemoWindow() :
 	
 	// add objects
 	AddChild(vwMain);
-
 }
-
 
 bool DemoWindow::QuitRequested()
 {
@@ -32,7 +29,6 @@ bool DemoWindow::QuitRequested()
 
 void DemoWindow::MessageReceived(BMessage* message)
 {
-	
 	switch(message->what)
 	{
 		case BUTTON_ONE_MSG:
@@ -40,6 +36,5 @@ void DemoWindow::MessageReceived(BMessage* message)
 			(new BAlert("Demo Alert", "Demo Alert Text", "Ok", 0, 0, B_WIDTH_AS_USUAL, B_INFO_ALERT))->Go();
 		}
 		break;
-		
 	}
 }
