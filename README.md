@@ -1,4 +1,4 @@
-HaikuAppDemo
+HaikuDemoApp
 ============
 
 A demo Haiku app template.
@@ -24,5 +24,5 @@ Compiling from source
 * Run '**make**' in the Terminal.
 * Done.
 
-#BeOS R5/Zeta/etc Compatibility Note
+#BeOS R5/Magnussoft Zeta/etc Compatibility Note
 Although the Haiku API is slightly similar to the original BeAPI, this demo has not yet been tested to compile on BeOS R5 or Zeta. Since the recent API changes in Haiku, API compatibility for BeOS, Zeta and other clones is not yet guaranteed or fully supported. This demo so far works on Haiku R1-alpha4 gcc2/gcc4 and newer.
