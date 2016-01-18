@@ -9,7 +9,7 @@ This application is just a simple example of a basic Haiku app for the Haiku Ope
 
 Requirements
 =============
-* Haiku R1-alpha4 gcc2 or greater.
+* Haiku R1-alpha4 gcc2 or greater. (gcc2 hybrid is recommended)
 * Latest Haiku nightlies.
 
 Compiling from source
