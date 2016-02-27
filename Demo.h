@@ -2,8 +2,10 @@
 	Demo.h
 */
 
-#ifndef _DEMO_H_
-#define _DEMO_H_
+#pragma once
+
+//#ifndef _DEMO_H_
+//#define _DEMO_H_
 
 #include "DemoWindow.h"
 #include <Application.h>

@@ -2,8 +2,10 @@
 	DemoView.h
 */
 
-#ifndef DEMOVIEW_H
-#define DEMOVIEW_H
+#pragma once
+
+//#ifndef DEMOVIEW_H
+//#define DEMOVIEW_H
 
 #include <Application.h>
 #include <InterfaceKit.h>

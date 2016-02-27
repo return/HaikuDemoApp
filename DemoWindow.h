@@ -2,8 +2,10 @@
 	DemoWindow.h
 */
 
-#ifndef _DEMOWINDOW_H_
-#define _DEMOWINDOW_H_
+#pragma once
+
+//#ifndef _DEMOWINDOW_H_
+//#define _DEMOWINDOW_H_
 
 #include <Application.h>
 #include <InterfaceKit.h>
