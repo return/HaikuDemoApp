@@ -6,7 +6,6 @@ SRCS := 	Demo.cpp DemoView.cpp DemoWindow.cpp
 LIBS := 	be
 OPTIMIZE := FULL
 RSRCS := 
-#Demo.rsrc
 #       Specify your RDEF files, if any. 
 RDEFS := 
 
@@ -39,7 +38,7 @@ DEFINES :=
 #       if unspecified default warnings will be used 
 #       NONE = supress all warnings 
 #       ALL = enable all warnings 
-WARNINGS := 
+WARNINGS := ALL
 
 #       specify whether image symbols will be created 
 #       so that stack crawls in the debugger are meaningful 
@@ -120,5 +119,3 @@ EXTRA_BUILD_STEPS :=
 EXTRA_DEPS := 
 
 include /boot/system/develop/etc/makefile-engine
-
-
